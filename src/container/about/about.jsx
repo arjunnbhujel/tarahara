@@ -1,4 +1,6 @@
+import "../../utils/utils.css"
 import "./about.css"
+
 import member from "./img/member.jpg"
 const About = () => {
   return (

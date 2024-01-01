@@ -1,5 +1,5 @@
-import "./navigation.css"
 import "../../utils/utils.css"
+import "./navigation.css"
 import logo from "../../assets/logo.png"
 
 const Navigation = () => {

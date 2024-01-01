@@ -1,3 +1,4 @@
+import "../../utils/utils.css"
 import { useEffect, useState } from "react"
 import "./banner.css"
 

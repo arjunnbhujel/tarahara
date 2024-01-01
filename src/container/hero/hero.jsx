@@ -1,4 +1,6 @@
+import "../../utils/utils.css"
 import "./hero.css"
+
 import tarahara from "./img/tarahara.jpg"
 import running from "./img/running.png"
 
