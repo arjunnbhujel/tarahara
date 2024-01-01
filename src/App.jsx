@@ -1,8 +1,8 @@
 import "./modern-normalize.css"
-import Navigation from "./container/navigation/Navigation"
-import Hero from "./container/hero/Hero"
-import Banner from "./container/banner/Banner"
-import About from "./container/about/About"
+import Navigation from "./container/Navigation/Navigation"
+import Hero from "./container/Hero/Hero"
+import Banner from "./container/Banner/Banner"
+import About from "./container/About/About"
 
 function App() {
   return (
