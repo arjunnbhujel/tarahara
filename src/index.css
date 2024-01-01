@@ -1,0 +1,54 @@
+:root {
+  /* Font Family */
+  --font-family: Noto Sans;
+
+  /* Font Size */
+  --xxlarge: 80px;
+  --large: 32px;
+  --default: 24px;
+
+  /* Font Weight */
+  --normal-font: 400;
+  --medium-font: 500;
+  --bold-font: 600;
+
+  /* Color */
+  --text-color: #515552;
+  --background: #fff;
+  --green: #00bd9d;
+  --light-blue: #85cfe8;
+
+  /* Gradient */
+  --green-gradient: radial-gradient(
+    circle,
+    var(--green) 25%,
+    var(--light-blue) 75%
+  );
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

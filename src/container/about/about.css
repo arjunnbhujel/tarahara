@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem;
+}
+
+.about--heading {
+  font-size: var(--large);
+}
+
+.about--paragraph {
+  font-size: var(--default);
+}

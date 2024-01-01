@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  font-size: var(--default);
+}
+
+.logo {
+  height: 6rem;
+  width: auto;
+}
+
+.a__link {
+  font-weight: var(--normal-font);
+}
+
+li {
+  list-style: none;
+}

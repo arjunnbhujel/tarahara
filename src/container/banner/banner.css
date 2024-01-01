@@ -1,0 +1,35 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--green);
+  padding: 2rem 0;
+}
+
+.banner--paragraph {
+  font-size: var(--large);
+  color: var(--background);
+  margin-top: 1rem;
+}
+
+.timer {
+  color: var(--background);
+  background-color: var(--light-blue);
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+}
+
+li {
+  display: inline-block;
+  font-size: 2rem;
+  list-style-type: none;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 5rem;
+}

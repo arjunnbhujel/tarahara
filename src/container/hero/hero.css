@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.hero--text {
+  padding: 2rem 5rem;
+  margin: -6.5rem 0 0 0;
+
+  background-color: var(--background);
+  border-radius: 1rem;
+}
+
+.heading--hero {
+  background: linear-gradient(94deg, #65b94a 5.66%, #5a86e0 88.26%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: var(--xxlarge);
+  font-weight: var(--bold-font);
+}
+
+.subheading--hero {
+  background: linear-gradient(94deg, #65b94a 5.66%, #5a86e0 88.26%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: var(--default);
+  font-weight: var(--bold-font);
+}
