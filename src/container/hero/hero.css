@@ -16,6 +16,16 @@
   border-radius: 1rem;
 }
 
+img.tarahara {
+  width: 100%;
+  height: auto;
+}
+
+img.running {
+  width: 100%;
+  height: auto;
+}
+
 .heading--hero {
   background: linear-gradient(94deg, #65b94a 5.66%, #5a86e0 88.26%);
   background-clip: text;
@@ -34,4 +44,24 @@
 
   font-size: var(--default);
   font-weight: var(--bold-font);
+}
+
+@media (max-width: 475px) {
+  .hero--text {
+    padding: 1rem 2rem;
+    margin: -2.5rem 0 0 0;
+
+    background-color: var(--background);
+    border-radius: 1rem;
+  }
+
+  .heading--hero {
+    font-size: var(--large);
+    font-weight: var(--bold-font);
+  }
+
+  .subheading--hero {
+    font-size: var(--small);
+    font-weight: var(--bold-font);
+  }
 }

@@ -55,20 +55,20 @@ const Banner = () => {
         <p className="banner--paragraph">
           Are you ready to run in 10K Tarahara Run Event?
         </p>
-        <p className="banner--paragraph ">March 9, 2023</p>
+        <p className="banner--paragraph ">March 9, 2024</p>
       </div>
       <div className="timer">
-        <ul>
-          <li>
+        <ul className="timer--ul">
+          <li className="timer--list">
             <span id="days">{state.days || "0"}</span>days
           </li>
-          <li>
+          <li className="timer--list">
             <span id="hours">{state.hours || "00"}</span>Hours
           </li>
-          <li>
+          <li className="timer--list">
             <span id="minutes">{state.minutes || "00"}</span>Minutes
           </li>
-          <li>
+          <li className="timer--list">
             <span id="seconds">{state.seconds || "00"}</span>Seconds
           </li>
         </ul>

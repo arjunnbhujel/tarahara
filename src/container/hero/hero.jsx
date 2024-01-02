@@ -14,7 +14,7 @@ const hero = () => {
           Run for Unity, Run for Health, Run for joy
         </h2>
       </div>
-      <img src={running} alt="Running Illustration" />
+      <img src={running} alt="Running Illustration" className="running" />
     </div>
   )
 }

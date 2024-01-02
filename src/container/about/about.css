@@ -1,8 +1,10 @@
 .about {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 2.5rem;
   padding: 2rem;
+  margin: 0;
 }
 
 .about--heading {
@@ -11,4 +13,17 @@
 
 .about--paragraph {
   font-size: var(--default);
+}
+
+@media (max-width: 475px) {
+  .about {
+    padding: 1rem 1rem;
+  }
+
+  .about--heading {
+    font-size: var(--default);
+  }
+  .about--paragraph {
+    font-size: var(--small);
+  }
 }
